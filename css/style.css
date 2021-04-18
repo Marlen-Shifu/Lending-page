@@ -1,0 +1,235 @@
+body{
+	margin: 0px;
+	background-color: #0B1D26;
+	color: #fff;
+	/*background-image: url('../img/VG.svg'), url('../img/MG.svg'), url('../img/BG Hero.svg'), url('../img/HG.svg') ;
+
+	background-position: 0% -145%, 0% -45%, 0% 0%, 0% 0%;
+	background-repeat: no-repeat;
+	background-size: 100%, 100%, 100%, 100%;*/
+
+	background-image: url('../img/Component 1.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+	
+
+/*common css*/
+.link{
+	color: #fff;
+	text-decoration: none;
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+.header-container{
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	margin-top: 0.3em;
+	font-size: 32px;
+	line-height: 38px;
+	letter-spacing: 0.01em;
+}
+
+.navbar{
+	margin-top: 3.7em;
+}
+
+.navbar a{
+	margin: 0 20px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.account{
+	margin-top: 2.8em;
+	font-size: 17px;
+	line-height: 21px;
+	display: flex;
+}
+
+.account img{
+	height: 24px;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+.main-section{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 5em;
+
+}
+
+
+
+.social-links{
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	margin-top: 8em;
+}
+
+.social-links p{
+	transform: rotate(90deg);
+	margin: 0 auto;
+}
+
+.inst{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 1em;
+}
+
+.twit{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 1em;
+}
+
+
+.main-content{
+	max-width: 57%;
+	margin: 0 auto;
+}
+
+.upper-text{
+	display: flex;
+}
+
+.upper-text-line{
+	width: 72px;
+	height: 2px;
+	background-color: #FBD784;
+	margin-right: 32px;
+	margin-top: 26px;
+}
+
+.upper-text p {
+	color: #FBD784;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 6px;
+}
+
+
+h1{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 65px;
+	line-height:100px;
+	margin-top: 14px;
+	margin-bottom: 32px;
+}
+
+
+
+
+.under-text{
+	display: flex;
+}
+
+.scroll-btn{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	display: block;
+}
+
+.under-text img{
+	margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+.page-navigation{
+	display: flex;
+	position: fixed;
+	right: 4em;
+}
+
+
+.page-nav-text ul{
+	list-style: none;
+	padding-top: 4em;
+}
+
+.page-nav-text ul li{
+	margin: 20px 0;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: right;
+}
+
+
+.page-nav ul{
+	list-style: none;
+	margin-top: 5em;
+}
+
+.page-nav-link{
+	width: 3px;
+	height: 47px;
+	background-color: #fff;
+	opacity: 0.5;
+}
+
+.selected{
+	opacity: 1;
+}
+
+.section{
+	position: relative;
+}
+
+.section-back-num{
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+	width: 24%;
+	margin: 0 auto;
+}
